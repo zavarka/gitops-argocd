@@ -10,7 +10,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: ./declarative/app-of-apps/geocentric-app
+    path: ./declarative/app-of-apps/geocentric-app.yml
     repoURL: https://github.com/zavarka/gitops-argocd.git
     targetRevision: HEAD
   syncPolicy:
