@@ -1,11 +1,11 @@
 ---
 apiVersion: v1
 data:
-  CIRCLE_COLOR: white
+  CIRCLE_COLOR: pink
   OVAL_COLOR: lightgreen
   RECTANGLE_COLOR: blue
   SQUARE_COLOR: orange
-  TRIANGLE_COLOR: red
+  TRIANGLE_COLOR: white
 kind: ConfigMap
 metadata:
   name: moving-shapes-colors
