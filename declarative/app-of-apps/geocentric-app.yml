@@ -13,7 +13,7 @@ spec:
   project: default
   source:
     path: ./declarative/manifests/geocentric-model
-    repoURL: http://165.22.209.118:3000/siddharth/gitops-argocd.git
+    repoURL: https://github.com/zavarka/gitops-argocd.git
     targetRevision: HEAD
   syncPolicy:
     automated:
